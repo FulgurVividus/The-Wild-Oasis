@@ -1,0 +1,11 @@
+#1. Global Styles with Styled Components:
+
+Example: GlobalStyles.js file, the apply method in App.jsx
+
+NOTE: 'GlobalStyles' does NOT accept any children components, so it must be just sibling component.
+
+#2. &:
+
+&: simply selects the currently selected element. Same thing as writing like html_element:hover.
+
+Example: Button.jsx file
