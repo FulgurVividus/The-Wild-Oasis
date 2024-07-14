@@ -9,3 +9,13 @@ NOTE: 'GlobalStyles' does NOT accept any children components, so it must be just
 &: simply selects the currently selected element. Same thing as writing like html_element:hover.
 
 Example: Button.jsx file
+
+#3. css:
+If we make some styling in separate variables, the syntax will NOT be highlighted. To make it highlighting, use 'css'.
+
+Example: Heading.jsx file
+
+#4. Props in Styled Components:
+In App.jsx we are passing some props to Heading styled component. And in Heading.jsx we are accepting these props and do some operations.
+
+NOTE: 'as' props. This prop is a part of Styled Components and needed to render this component AS some_html_element, it's very crucial for SEO and accessibility.
