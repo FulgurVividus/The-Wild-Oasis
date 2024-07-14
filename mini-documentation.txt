@@ -24,3 +24,8 @@ NOTE: 'as' props. This prop is a part of Styled Components and needed to render 
 On any React Styled Components, you can make some default props, so by default it will apply these default props. 
 
 Example: Row.jsx file
+
+#6. Styling 3rd-party components:
+When some components are coming from 3rd-party libraries and we need to style them, then pass this component like this => const StyledSomething = styled(3rd_party_component);
+
+Example: MainNav.jsx file
