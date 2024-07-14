@@ -19,3 +19,8 @@ Example: Heading.jsx file
 In App.jsx we are passing some props to Heading styled component. And in Heading.jsx we are accepting these props and do some operations.
 
 NOTE: 'as' props. This prop is a part of Styled Components and needed to render this component AS some_html_element, it's very crucial for SEO and accessibility.
+
+#5. Default Props:
+On any React Styled Components, you can make some default props, so by default it will apply these default props. 
+
+Example: Row.jsx file
