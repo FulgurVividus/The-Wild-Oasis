@@ -29,3 +29,16 @@ Example: Row.jsx file
 When some components are coming from 3rd-party libraries and we need to style them, then pass this component like this => const StyledSomething = styled(3rd_party_component);
 
 Example: MainNav.jsx file
+
+#7 supabase.js:
+It's a client, where we will initialize the 'supabase' API and create a client so that we can then start querying the database.
+
+NOTE: if someone decides to steal supabaseKey, he/she can do nothing because of RLS policy. They could do what we allowed in the RLS policy.
+
+#8. apiCabins.js:
+For each of services we will create one service, there we will have a bunch of functions.
+
+- const { data, error } = await supabase.from("cabins").select("*");
+From 'supabase' client we can now create queries with the 'from' method, then we specify the name of the table and the fields that we want. This returns a promise which we await and the result of that gives us data & error. * - means all.
+
+This service can be used anywhere in the application.
