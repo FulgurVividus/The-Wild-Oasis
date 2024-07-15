@@ -42,3 +42,5 @@ For each of services we will create one service, there we will have a bunch of f
 From 'supabase' client we can now create queries with the 'from' method, then we specify the name of the table and the fields that we want. This returns a promise which we await and the result of that gives us data & error. * - means all.
 
 This service can be used anywhere in the application.
+
+Example: services folder => apiCabins.js file
