@@ -8,7 +8,7 @@ NOTE: 'GlobalStyles' does NOT accept any children components, so it must be just
 
 &: simply selects the currently selected element. Same thing as writing like html_element:hover.
 
-Example: Button.jsx file
+Example: Button.jsx file.
 
 #3. css:
 If we make some styling in separate variables, the syntax will NOT be highlighted. To make it highlighting, use 'css'.
