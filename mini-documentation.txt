@@ -56,6 +56,30 @@ Example: App.jsx file
 
 #10. useQuery():
 
+useQuery()
+-> A hook that fetches and caches data.
+-> Automatically manages data fetching, caching, and updating.
+-> Takes queryKey (unique identifier) and queryFn (function to fetch data).
+
 queryFn - responsible for querying (fetching data). The function that's specified here, must return a promise.
 
 Example: CabinTable.jsx file
+
+#11. useMutation():
+
+Purpose:
+-> Manages side effects like creating, updating, or deleting data on the server.
+
+Functionality:
+-> Takes a mutation function (mutationFn) that performs the side effect.
+-> Returns status and helper methods (isLoading, error, data, mutate) to manage and execute the mutation.
+
+Usage:
+-> Call the 'mutate' method to execute the mutation function.
+-> Handles the loading state, success, and error responses automatically.
+
+'mutate' - is a callback function that we can connect with something.
+
+'onSuccess' - tells React Query what to do as soon as mutation was successful. But there are also other statuses.
+
+Example: CabinRow.jsx file
