@@ -1,23 +1,19 @@
-import { useEffect } from "react";
 import Heading from "../ui/Heading";
 import Row from "../ui/Row";
-import { getCabins } from "../services/apiCabins";
+import CabinTable from "../features/cabins/CabinTable";
 
 function Cabins() {
-  useEffect(function () {
-    getCabins().then((data) => console.log(data));
-  }, []);
-
   return (
-    <Row type="horizontal">
-      <Heading as="h1">All cabins</Heading>
-      <p>TEST</p>
+    <>
+      <Row type="horizontal">
+        <Heading as="h1">All cabins</Heading>
+        <p>Filter / Sort</p>
+      </Row>
 
-      <img
-        src="https://cpbkfsuxkwclxynwyhmr.supabase.co/storage/v1/object/public/cabin-images/cabin_001.jpg"
-        alt="cabin"
-      />
-    </Row>
+      <Row>
+        <CabinTable />
+      </Row>
+    </>
   );
 }
 
