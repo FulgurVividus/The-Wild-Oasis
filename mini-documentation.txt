@@ -44,3 +44,12 @@ From 'supabase' client we can now create queries with the 'from' method, then we
 This service can be used anywhere in the application.
 
 Example: services folder => apiCabins.js file
+
+#9. React Query:
+We set up the cache and the query client using 'newQueryClient'. Later provide it to the application by using 'QueryClientProvider'.
+
+Stale Time - is the amount of time that the data in the cache will stay fresh (will stay valid until it's refetched).
+
+React Query DevTools: npm i @tanstack/react-query-devtools
+
+Example: App.jsx file
