@@ -95,10 +95,12 @@ Example: App.jsx (implementation), CabinRow.jsx (usage)
 
 useForm() - gives a few functions that we can use. The most fundamental is 'register', 'handleSubmit'.
 
+{...register("name_of_input", {some_options})}
+
 One of fundamental things about React Hook Form is to essentially register inputs.
 
 1st step - is to register all input fields that we want React Hook Form to handle.
-2nd step - is to specify onSubmit={handleSubmit()} on form.
+2nd step - is to specify onSubmit={handleSubmit(our_submit_function, our_errors_function)} on form.
 
 'data' - is all the data from input fields that we registered.
 
