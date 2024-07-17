@@ -82,7 +82,7 @@ Usage:
 
 'onSuccess' - tells React Query what to do as soon as mutation was successful. But there are also other statuses.
 
-Example: CabinRow.jsx file
+Example: CabinRow.jsx file, CreateCabinForm.jsx file
 
 #12. react-hot-toast:
 Install: npm i react-hot-toast
