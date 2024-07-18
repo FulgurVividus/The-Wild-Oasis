@@ -104,4 +104,6 @@ One of fundamental things about React Hook Form is to essentially register input
 
 'data' - is all the data from input fields that we registered.
 
-Example: CreateCabin.jsx file
+Look at defaultValues of useForm(), this way is how to implement form prefill.
+
+Example: CreateCabinForm.jsx file
