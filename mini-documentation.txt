@@ -82,6 +82,9 @@ Usage:
 
 'onSuccess' - tells React Query what to do as soon as mutation was successful. But there are also other statuses.
 
+NOTE: we can place 'onSuccess' not only in useMutation, but also right in the function where the mutation happens. Example: mutation happening createCabin() in CreateCabinForm.jsx, which is coming from useCreateCabin.js. So in this sample, we pass object of options.
+onSuccess: () => reset(); This callback gets access to the data that the mutation function returns (from apiCabins.js from createEditCabin() function).
+
 Example: CabinRow.jsx file, CreateCabinForm.jsx file
 
 #12. react-hot-toast:
