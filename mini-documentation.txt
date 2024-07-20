@@ -110,3 +110,11 @@ One of fundamental things about React Hook Form is to essentially register input
 Look at defaultValues of useForm(), this way is how to implement form prefill.
 
 Example: CreateCabinForm.jsx file
+
+#14. React Portal:
+It's a feature that essentially allows us to render an element outside of parent component DOM structure, while still keeping the element in the original position of component tree.
+In other words, with 'portal' we can basically render a component in any place that we want inside the DOM tree.
+
+createPortal - accepts the 1st argument the JSX, and the 2nd argument is DOM Node where we want to render this JSX.
+
+Example: Modal.jsx file
