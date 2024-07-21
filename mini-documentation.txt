@@ -120,7 +120,7 @@ createPortal - accepts the 1st argument the JSX, and the 2nd argument is DOM Nod
 Example: Modal.jsx file
 
 #15. Detecting a click outside the Modal:
-Here, by passing 3rd argument 'true', we catch the event in the 'capturing' phase and let it go up (bubbling phase). 
+Here, by passing 3rd argument 'true', we catch the event in the 'capturing' phase and NOT let it go up (bubbling phase). 
 document.addEventListener("click", handleClick, true);
 
 Example: useOutsideClick.js file
