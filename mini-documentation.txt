@@ -124,3 +124,8 @@ Here, by passing 3rd argument 'true', we catch the event in the 'capturing' phas
 document.addEventListener("click", handleClick, true);
 
 Example: useOutsideClick.js file
+
+#16. Pre-fetching in React Query:
+The way it works is that we first need a query client and then on there we call pre-fetch query method.
+
+Example: useBookings.js
