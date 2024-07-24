@@ -129,3 +129,8 @@ Example: useOutsideClick.js file
 The way it works is that we first need a query client and then on there we call pre-fetch query method.
 
 Example: useBookings.js
+
+#17. onSettled:
+onSettled - is a callback function that gets called when the mutation is successful or when it fails.
+
+Example: BookingDetail.jsx file
