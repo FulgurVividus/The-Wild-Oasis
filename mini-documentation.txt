@@ -134,3 +134,8 @@ Example: useBookings.js
 onSettled - is a callback function that gets called when the mutation is successful or when it fails.
 
 Example: BookingDetail.jsx file
+
+#18. Login:
+After the login, we will redirect user to the home page and also show some indicator that login is actually happening. And it's best to use React Query for this.
+
+Example: LoginForm.jsx and useLogin.js files 
