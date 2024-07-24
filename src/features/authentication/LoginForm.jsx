@@ -18,7 +18,16 @@ function LoginForm() {
 
     if (!email || !password) return;
 
-    login({ email, password });
+    // it's a Mutation function, so we set some options
+    login(
+      { email, password },
+      {
+        onSettled: () => {
+          setEmail("");
+          setPassword("");
+        },
+      }
+    );
   }
 
   return (
