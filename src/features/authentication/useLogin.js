@@ -16,7 +16,7 @@ export function useLogin() {
     onSuccess: () => {
       // this allows us to manually set some data in React Query cache
       queryClient.setQueriesData(["user"], user);
-      navigate("/dashboard");
+      navigate("/dashboard", { replace: true });
     },
 
     onError: (error) => {
