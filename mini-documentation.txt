@@ -139,3 +139,9 @@ Example: BookingDetail.jsx file
 After the login, we will redirect user to the home page and also show some indicator that login is actually happening. And it's best to use React Query for this.
 
 Example: LoginForm.jsx and useLogin.js files 
+
+#19. navigate('/login', { replace: true });
+
+replace: true - When you navigate to the new route (/login in this case), this option replaces the current entry in the browser's history stack with the new route. This means that the user will not be able to go back to the previous page using the browser's back button.
+
+Example: useLogout.js file
