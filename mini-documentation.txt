@@ -149,3 +149,10 @@ Example: useLogout.js file
 #20. React Hook Form (second example):
 
 Example: SignupForm.jsx file
+
+#21. Error Boundaries:
+Error Boundaries are like try-catch blocks, but for React rendering. That allows us to react to JS errors in the render code (in React's render logic).
+
+This concept is implemented using React class components. So, use the package 'react-error-boundary' to implement this and it's much easier. 
+
+Example: main.jsx file
